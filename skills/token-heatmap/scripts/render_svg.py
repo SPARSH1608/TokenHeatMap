@@ -21,9 +21,11 @@ BOTTOM_PAD = 28
 RIGHT_PAD = 45
 WEEKS = 53
 
-# Sequential Claude-coral ramp (brand hue, light -> dark = low -> high activity).
+# Sequential Claude-coral ramp (brand hue). Light -> dark = low -> high activity
+# in BOTH modes, by request - heaviest days are darkest even on the dark
+# surface, trading contrast for a consistent light-to-dark reading direction.
 LEVEL_COLORS_LIGHT = ["#ece6dc", "#f3d0b8", "#eba883", "#d97757", "#a8442a"]
-LEVEL_COLORS_DARK = ["#3a332c", "#6b4530", "#a85c3c", "#d97757", "#f2a67e"]
+LEVEL_COLORS_DARK = ["#d8cbb8", "#e8b98a", "#d97757", "#a8442a", "#6b2f1a"]
 
 SURFACE_LIGHT = "#fcfcfb"
 SURFACE_DARK = "#1a1a19"

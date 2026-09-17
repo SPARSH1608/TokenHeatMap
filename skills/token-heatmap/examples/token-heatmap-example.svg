@@ -12,11 +12,11 @@
     @media (prefers-color-scheme: dark) {
       .surface { fill: #1a1a19; }
       .title { fill: #ffffff; }
-      .level-0 { fill: #3a332c; }
-      .level-1 { fill: #6b4530; }
-      .level-2 { fill: #a85c3c; }
-      .level-3 { fill: #d97757; }
-      .level-4 { fill: #f2a67e; }
+      .level-0 { fill: #d8cbb8; }
+      .level-1 { fill: #e8b98a; }
+      .level-2 { fill: #d97757; }
+      .level-3 { fill: #a8442a; }
+      .level-4 { fill: #6b2f1a; }
     }
   </style>
   <rect x="0" y="0" width="815" height="166" class="surface"></rect>
