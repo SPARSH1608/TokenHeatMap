@@ -21,9 +21,9 @@ BOTTOM_PAD = 28
 RIGHT_PAD = 45
 WEEKS = 53
 
-# Sequential blue ramp (dataviz skill reference palette), light -> dark = low -> high.
-LEVEL_COLORS_LIGHT = ["#e1e0d9", "#b7d3f6", "#6da7ec", "#2a78d6", "#184f95"]
-LEVEL_COLORS_DARK = ["#383835", "#1c3a5c", "#2a5d8f", "#3987e5", "#7fb4f0"]
+# Sequential Claude-coral ramp (brand hue, light -> dark = low -> high activity).
+LEVEL_COLORS_LIGHT = ["#ece6dc", "#f3d0b8", "#eba883", "#d97757", "#a8442a"]
+LEVEL_COLORS_DARK = ["#3a332c", "#6b4530", "#a85c3c", "#d97757", "#f2a67e"]
 
 SURFACE_LIGHT = "#fcfcfb"
 SURFACE_DARK = "#1a1a19"
