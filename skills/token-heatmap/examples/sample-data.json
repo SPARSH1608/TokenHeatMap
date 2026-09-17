@@ -1,0 +1,1780 @@
+{
+  "2025-09-13": {
+    "messages": 18,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 14929929
+  },
+  "2025-09-15": {
+    "messages": 135,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 108470509
+  },
+  "2025-09-17": {
+    "messages": 82,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 66020620
+  },
+  "2025-09-20": {
+    "messages": 161,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 128956703
+  },
+  "2025-09-21": {
+    "messages": 52,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 42076696
+  },
+  "2025-09-22": {
+    "messages": 17,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 14198210
+  },
+  "2025-09-23": {
+    "messages": 242,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 194386209
+  },
+  "2025-09-24": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1565677
+  },
+  "2025-09-26": {
+    "messages": 94,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 75588771
+  },
+  "2025-09-29": {
+    "messages": 226,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 181483360
+  },
+  "2025-09-30": {
+    "messages": 145,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 116035554
+  },
+  "2025-10-01": {
+    "messages": 166,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 133222016
+  },
+  "2025-10-02": {
+    "messages": 271,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 216974093
+  },
+  "2025-10-03": {
+    "messages": 18,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 14975632
+  },
+  "2025-10-04": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1922895
+  },
+  "2025-10-05": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2104502
+  },
+  "2025-10-06": {
+    "messages": 22,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 18146742
+  },
+  "2025-10-07": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1057738
+  },
+  "2025-10-08": {
+    "messages": 46,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 37524643
+  },
+  "2025-10-09": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1407116
+  },
+  "2025-10-11": {
+    "messages": 193,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 155120284
+  },
+  "2025-10-12": {
+    "messages": 216,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 173155742
+  },
+  "2025-10-13": {
+    "messages": 298,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 238486896
+  },
+  "2025-10-15": {
+    "messages": 41,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 32930951
+  },
+  "2025-10-16": {
+    "messages": 120,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 96605483
+  },
+  "2025-10-17": {
+    "messages": 58,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 46503341
+  },
+  "2025-10-18": {
+    "messages": 15,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 12447054
+  },
+  "2025-10-19": {
+    "messages": 93,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 74997755
+  },
+  "2025-10-22": {
+    "messages": 210,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 168459297
+  },
+  "2025-10-24": {
+    "messages": 259,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 207271708
+  },
+  "2025-10-26": {
+    "messages": 53,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 43049879
+  },
+  "2025-10-27": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2999144
+  },
+  "2025-10-30": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1182653
+  },
+  "2025-11-02": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2196073
+  },
+  "2025-11-03": {
+    "messages": 50,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 40018887
+  },
+  "2025-11-04": {
+    "messages": 133,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 106981019
+  },
+  "2025-11-05": {
+    "messages": 319,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 255814655
+  },
+  "2025-11-06": {
+    "messages": 24,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 19389428
+  },
+  "2025-11-08": {
+    "messages": 26,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 21126171
+  },
+  "2025-11-09": {
+    "messages": 17,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 13877084
+  },
+  "2025-11-10": {
+    "messages": 64,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 51513121
+  },
+  "2025-11-11": {
+    "messages": 64,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 51406178
+  },
+  "2025-11-12": {
+    "messages": 60,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 48278233
+  },
+  "2025-11-13": {
+    "messages": 218,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 174584246
+  },
+  "2025-11-14": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1313065
+  },
+  "2025-11-15": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1314114
+  },
+  "2025-11-16": {
+    "messages": 21,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 16882725
+  },
+  "2025-11-18": {
+    "messages": 126,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 100841454
+  },
+  "2025-11-19": {
+    "messages": 335,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 268205626
+  },
+  "2025-11-20": {
+    "messages": 158,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 126765393
+  },
+  "2025-11-21": {
+    "messages": 163,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 130623684
+  },
+  "2025-11-23": {
+    "messages": 11,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 9276773
+  },
+  "2025-11-26": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1303454
+  },
+  "2025-11-27": {
+    "messages": 64,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 51667395
+  },
+  "2025-11-28": {
+    "messages": 69,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 55267842
+  },
+  "2025-11-30": {
+    "messages": 94,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 75663533
+  },
+  "2025-12-01": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2148128
+  },
+  "2025-12-03": {
+    "messages": 21,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 17068044
+  },
+  "2025-12-04": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2106717
+  },
+  "2025-12-05": {
+    "messages": 140,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 112784932
+  },
+  "2025-12-06": {
+    "messages": 33,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 27177661
+  },
+  "2025-12-08": {
+    "messages": 74,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 59220425
+  },
+  "2025-12-09": {
+    "messages": 332,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 265789264
+  },
+  "2025-12-10": {
+    "messages": 13,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 10745769
+  },
+  "2025-12-13": {
+    "messages": 15,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 12233219
+  },
+  "2025-12-14": {
+    "messages": 40,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 32264919
+  },
+  "2025-12-15": {
+    "messages": 186,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 149542433
+  },
+  "2025-12-16": {
+    "messages": 231,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 185565947
+  },
+  "2025-12-17": {
+    "messages": 58,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 46558400
+  },
+  "2025-12-18": {
+    "messages": 36,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 28863856
+  },
+  "2025-12-19": {
+    "messages": 106,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 85335709
+  },
+  "2025-12-20": {
+    "messages": 22,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 17859140
+  },
+  "2025-12-22": {
+    "messages": 10,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 8784194
+  },
+  "2025-12-23": {
+    "messages": 52,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 42231641
+  },
+  "2025-12-24": {
+    "messages": 69,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 55212799
+  },
+  "2025-12-25": {
+    "messages": 16,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 12822374
+  },
+  "2025-12-26": {
+    "messages": 151,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 121585755
+  },
+  "2025-12-27": {
+    "messages": 262,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 210273924
+  },
+  "2025-12-28": {
+    "messages": 83,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 66947709
+  },
+  "2025-12-31": {
+    "messages": 172,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 138311196
+  },
+  "2026-01-03": {
+    "messages": 55,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 44636494
+  },
+  "2026-01-04": {
+    "messages": 76,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 60852326
+  },
+  "2026-01-06": {
+    "messages": 56,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 45423404
+  },
+  "2026-01-08": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2699151
+  },
+  "2026-01-09": {
+    "messages": 28,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 22758269
+  },
+  "2026-01-10": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1694407
+  },
+  "2026-01-11": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2592454
+  },
+  "2026-01-14": {
+    "messages": 11,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 9028519
+  },
+  "2026-01-15": {
+    "messages": 10,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 8639947
+  },
+  "2026-01-17": {
+    "messages": 53,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 43031869
+  },
+  "2026-01-18": {
+    "messages": 30,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 24323949
+  },
+  "2026-01-19": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2555583
+  },
+  "2026-01-20": {
+    "messages": 33,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 26711565
+  },
+  "2026-01-21": {
+    "messages": 18,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 14475509
+  },
+  "2026-01-22": {
+    "messages": 131,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 105251296
+  },
+  "2026-01-23": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2242671
+  },
+  "2026-01-25": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2508466
+  },
+  "2026-01-26": {
+    "messages": 36,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 28968886
+  },
+  "2026-01-28": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1940613
+  },
+  "2026-01-30": {
+    "messages": 87,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 70043095
+  },
+  "2026-01-31": {
+    "messages": 35,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 28466411
+  },
+  "2026-02-01": {
+    "messages": 76,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 61355612
+  },
+  "2026-02-02": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2285499
+  },
+  "2026-02-03": {
+    "messages": 122,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 98270349
+  },
+  "2026-02-09": {
+    "messages": 58,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 46754944
+  },
+  "2026-02-10": {
+    "messages": 46,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 37433439
+  },
+  "2026-02-14": {
+    "messages": 116,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 93439851
+  },
+  "2026-02-15": {
+    "messages": 39,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 31944506
+  },
+  "2026-02-16": {
+    "messages": 198,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 158468585
+  },
+  "2026-02-19": {
+    "messages": 100,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 80052913
+  },
+  "2026-02-20": {
+    "messages": 217,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 173866374
+  },
+  "2026-02-21": {
+    "messages": 10,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 8463432
+  },
+  "2026-02-22": {
+    "messages": 13,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 10968922
+  },
+  "2026-02-24": {
+    "messages": 41,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 33433901
+  },
+  "2026-02-25": {
+    "messages": 64,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 51973501
+  },
+  "2026-02-26": {
+    "messages": 221,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 177227463
+  },
+  "2026-02-28": {
+    "messages": 62,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 50071071
+  },
+  "2026-03-01": {
+    "messages": 23,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 18654831
+  },
+  "2026-03-03": {
+    "messages": 208,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 166813336
+  },
+  "2026-03-06": {
+    "messages": 246,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 197181417
+  },
+  "2026-03-08": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1912923
+  },
+  "2026-03-09": {
+    "messages": 217,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 173618979
+  },
+  "2026-03-13": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2785319
+  },
+  "2026-03-14": {
+    "messages": 111,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 89493945
+  },
+  "2026-03-16": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1910832
+  },
+  "2026-03-18": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1092427
+  },
+  "2026-03-19": {
+    "messages": 36,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 28985626
+  },
+  "2026-03-21": {
+    "messages": 29,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 23735488
+  },
+  "2026-03-22": {
+    "messages": 50,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 40618080
+  },
+  "2026-03-26": {
+    "messages": 18,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 15167609
+  },
+  "2026-03-27": {
+    "messages": 48,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 38599527
+  },
+  "2026-03-28": {
+    "messages": 17,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 13948322
+  },
+  "2026-03-30": {
+    "messages": 45,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 36243006
+  },
+  "2026-04-01": {
+    "messages": 132,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 105958615
+  },
+  "2026-04-02": {
+    "messages": 52,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 42176499
+  },
+  "2026-04-03": {
+    "messages": 58,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 46675716
+  },
+  "2026-04-04": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2439508
+  },
+  "2026-04-05": {
+    "messages": 56,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 44926216
+  },
+  "2026-04-06": {
+    "messages": 16,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 12963322
+  },
+  "2026-04-08": {
+    "messages": 56,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 45152215
+  },
+  "2026-04-09": {
+    "messages": 155,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 124214179
+  },
+  "2026-04-10": {
+    "messages": 333,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 267162452
+  },
+  "2026-04-11": {
+    "messages": 61,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 49141802
+  },
+  "2026-04-12": {
+    "messages": 26,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 21530287
+  },
+  "2026-04-14": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1230683
+  },
+  "2026-04-16": {
+    "messages": 202,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 161942109
+  },
+  "2026-04-17": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2933778
+  },
+  "2026-04-18": {
+    "messages": 16,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 13476989
+  },
+  "2026-04-21": {
+    "messages": 95,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 76469258
+  },
+  "2026-04-22": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2717186
+  },
+  "2026-04-24": {
+    "messages": 14,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 11502085
+  },
+  "2026-04-25": {
+    "messages": 64,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 51295459
+  },
+  "2026-04-28": {
+    "messages": 27,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 22143090
+  },
+  "2026-04-30": {
+    "messages": 281,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 224905970
+  },
+  "2026-05-01": {
+    "messages": 311,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 249144246
+  },
+  "2026-05-02": {
+    "messages": 21,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 17504001
+  },
+  "2026-05-06": {
+    "messages": 69,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 55959259
+  },
+  "2026-05-07": {
+    "messages": 17,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 13946800
+  },
+  "2026-05-09": {
+    "messages": 19,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 15683854
+  },
+  "2026-05-10": {
+    "messages": 119,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 95481617
+  },
+  "2026-05-11": {
+    "messages": 33,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 26463279
+  },
+  "2026-05-12": {
+    "messages": 63,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 50844768
+  },
+  "2026-05-13": {
+    "messages": 149,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 119641328
+  },
+  "2026-05-15": {
+    "messages": 70,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 56213459
+  },
+  "2026-05-17": {
+    "messages": 22,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 17812456
+  },
+  "2026-05-18": {
+    "messages": 55,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 44193193
+  },
+  "2026-05-20": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2779425
+  },
+  "2026-05-21": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2877860
+  },
+  "2026-05-22": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2335726
+  },
+  "2026-05-24": {
+    "messages": 55,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 44467110
+  },
+  "2026-05-25": {
+    "messages": 17,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 14072768
+  },
+  "2026-05-27": {
+    "messages": 69,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 55234566
+  },
+  "2026-05-28": {
+    "messages": 18,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 15088270
+  },
+  "2026-05-30": {
+    "messages": 337,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 269721799
+  },
+  "2026-06-02": {
+    "messages": 47,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 38288982
+  },
+  "2026-06-03": {
+    "messages": 36,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 29547438
+  },
+  "2026-06-04": {
+    "messages": 71,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 57388250
+  },
+  "2026-06-05": {
+    "messages": 130,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 104163584
+  },
+  "2026-06-06": {
+    "messages": 246,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 197013447
+  },
+  "2026-06-08": {
+    "messages": 16,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 13556633
+  },
+  "2026-06-09": {
+    "messages": 10,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 8527819
+  },
+  "2026-06-11": {
+    "messages": 147,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 118337891
+  },
+  "2026-06-12": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2168355
+  },
+  "2026-06-13": {
+    "messages": 126,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 100972362
+  },
+  "2026-06-15": {
+    "messages": 14,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 11950617
+  },
+  "2026-06-16": {
+    "messages": 261,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 209136836
+  },
+  "2026-06-17": {
+    "messages": 88,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 70672430
+  },
+  "2026-06-18": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2970617
+  },
+  "2026-06-21": {
+    "messages": 110,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 88322257
+  },
+  "2026-06-24": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2937992
+  },
+  "2026-06-25": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2304289
+  },
+  "2026-06-27": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1886261
+  },
+  "2026-06-28": {
+    "messages": 76,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 61513923
+  },
+  "2026-06-29": {
+    "messages": 12,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 10353133
+  },
+  "2026-07-01": {
+    "messages": 138,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 110539222
+  },
+  "2026-07-03": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2346729
+  },
+  "2026-07-04": {
+    "messages": 96,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 76886780
+  },
+  "2026-07-05": {
+    "messages": 77,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 62136892
+  },
+  "2026-07-06": {
+    "messages": 83,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 66869751
+  },
+  "2026-07-08": {
+    "messages": 142,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 113816132
+  },
+  "2026-07-09": {
+    "messages": 14,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 11677158
+  },
+  "2026-07-12": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1457883
+  },
+  "2026-07-13": {
+    "messages": 9,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 7607862
+  },
+  "2026-07-14": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2176617
+  },
+  "2026-07-15": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1495811
+  },
+  "2026-07-16": {
+    "messages": 46,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 37524003
+  },
+  "2026-07-17": {
+    "messages": 44,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 35959691
+  },
+  "2026-07-18": {
+    "messages": 282,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 225947735
+  },
+  "2026-07-19": {
+    "messages": 207,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 166164829
+  },
+  "2026-07-20": {
+    "messages": 149,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 119722852
+  },
+  "2026-07-21": {
+    "messages": 11,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 9425871
+  },
+  "2026-07-22": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2955968
+  },
+  "2026-07-23": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1171306
+  },
+  "2026-07-24": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1481743
+  },
+  "2026-07-27": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2858197
+  },
+  "2026-07-28": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2197889
+  },
+  "2026-07-30": {
+    "messages": 19,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 15590685
+  },
+  "2026-07-31": {
+    "messages": 249,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 199614638
+  },
+  "2026-08-01": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2741037
+  },
+  "2026-08-03": {
+    "messages": 73,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 58875523
+  },
+  "2026-08-04": {
+    "messages": 46,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 37390610
+  },
+  "2026-08-05": {
+    "messages": 63,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 50743949
+  },
+  "2026-08-06": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2363420
+  },
+  "2026-08-09": {
+    "messages": 115,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 92620291
+  },
+  "2026-08-10": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1769534
+  },
+  "2026-08-11": {
+    "messages": 24,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 19381190
+  },
+  "2026-08-13": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2511564
+  },
+  "2026-08-15": {
+    "messages": 35,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 28772830
+  },
+  "2026-08-16": {
+    "messages": 208,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 167118088
+  },
+  "2026-08-18": {
+    "messages": 31,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 25585212
+  },
+  "2026-08-20": {
+    "messages": 100,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 80606871
+  },
+  "2026-08-21": {
+    "messages": 309,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 247746172
+  },
+  "2026-08-22": {
+    "messages": 45,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 36046591
+  },
+  "2026-08-23": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1458096
+  },
+  "2026-08-24": {
+    "messages": 161,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 129530731
+  },
+  "2026-08-25": {
+    "messages": 12,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 9951037
+  },
+  "2026-08-26": {
+    "messages": 2,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2218262
+  },
+  "2026-08-27": {
+    "messages": 42,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 34210828
+  },
+  "2026-08-28": {
+    "messages": 127,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 102211599
+  },
+  "2026-09-01": {
+    "messages": 23,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 19096025
+  },
+  "2026-09-02": {
+    "messages": 22,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 18068577
+  },
+  "2026-09-03": {
+    "messages": 311,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 249381314
+  },
+  "2026-09-04": {
+    "messages": 65,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 52092017
+  },
+  "2026-09-05": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2459463
+  },
+  "2026-09-07": {
+    "messages": 67,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 53704473
+  },
+  "2026-09-09": {
+    "messages": 13,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 10729706
+  },
+  "2026-09-10": {
+    "messages": 22,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 17972090
+  },
+  "2026-09-11": {
+    "messages": 65,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 52377218
+  },
+  "2026-09-12": {
+    "messages": 206,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 165513567
+  },
+  "2026-09-13": {
+    "messages": 118,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 94776474
+  },
+  "2026-09-14": {
+    "messages": 1,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 1187390
+  },
+  "2026-09-15": {
+    "messages": 132,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 105648989
+  },
+  "2026-09-16": {
+    "messages": 23,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 18547068
+  },
+  "2026-09-17": {
+    "messages": 3,
+    "models": {
+      "claude-sonnet-5": 1
+    },
+    "tokens": 2483100
+  }
+}
