@@ -5,11 +5,20 @@ description: Generate a GitHub-contributions-style SVG heatmap of the user's Cla
 
 # Token Heatmap
 
-Generates a GitHub-contributions-style SVG calendar heatmap of the user's
-Claude Code token usage, read from their local session logs
-(`~/.claude/projects/**/*.jsonl`). The output is a single self-contained SVG
-file meant to be committed to a repo and embedded in a README or portfolio
-page.
+Generates a GitHub-contributions-style calendar heatmap of the user's Claude
+Code token usage, read from their local session logs
+(`~/.claude/projects/**/*.jsonl`), in two output forms:
+
+- **`token-heatmap.svg`** - static, for README/markdown embeds. A markdown
+  `![]()` image always renders as a flat `<img>`, which never runs hover or
+  focus interactivity no matter what the SVG contains - this is a browser
+  platform limit, not something to work around. Use this for GitHub.
+- **`token-heatmap.html`** - a self-contained interactive widget (real hover
+  tooltips, a GitHub-style year selector) with all usage data embedded
+  inline as JSON, for portfolio sites via `<iframe>` or inline embedding,
+  where the page's own HTML/JS can actually run.
+
+Default to generating both unless the user only asked for one.
 
 Phase 1 scope: Claude Code only, local logs only, one machine at a time.
 Multi-agent (Codex, Copilot, ...) and hosted/dynamic badges are future phases
@@ -59,7 +68,7 @@ checkout, which is not the common case for an installed skill.
    Re-running it is safe and incremental - it merges into the existing file
    rather than overwriting history, since old log files can rotate away.
 
-3. Render the SVG:
+3. Render the static SVG (for README/markdown):
 
    ```
    python <skill-dir>/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
@@ -68,11 +77,18 @@ checkout, which is not the common case for an installed skill.
    Useful flags: `--weeks N` (default 53, i.e. ~1 year), `--title "..."` to
    customize the header text.
 
-4. Show the user the resulting file path and a one-line summary (total
+3b. Render the interactive HTML widget (for a portfolio site):
+
+   ```
+   python <skill-dir>/scripts/render_html.py --data token-heatmap-data.json --out token-heatmap.html
+   ```
+
+4. Show the user the resulting file path(s) and a one-line summary (total
    tokens, active days) - do not open a browser or push anywhere unprompted.
 
-5. If this is the first time in this repo, offer the embed snippet for their
-   README:
+5. If this is the first time in this repo, offer the relevant embed snippet.
+
+   README/markdown (static SVG):
 
    ```markdown
    ![Claude Token Usage](./token-heatmap.svg)
@@ -85,6 +101,16 @@ checkout, which is not the common case for an installed skill.
    ![Claude Token Usage](https://raw.githubusercontent.com/<user>/<repo>/<branch>/token-heatmap.svg)
    ```
 
+   Portfolio site (interactive HTML, real hover + year switching):
+
+   ```html
+   <iframe src="/token-heatmap.html" width="100%" height="220" style="border:none"></iframe>
+   ```
+
+   Only works this way if the page can serve the `.html` file as a static
+   asset alongside the site - for a framework-based portfolio (Next.js,
+   Astro, etc.), that usually means dropping it in `public/`.
+
 ## Keeping it fresh
 
 Because the source data is local-only, an automatic "always up to date on
@@ -96,8 +122,9 @@ whichever the user picks:
 - **Manual**: re-run this skill whenever they want an updated snapshot.
 - **Automatic daily updates**: `scripts/setup_autoupdate.py` registers a
   local scheduled task (Windows Task Scheduler, or cron on macOS/Linux) that
-  runs collect -> render -> `git commit` -> `git push` once a day, skipping
-  the commit entirely on days nothing changed. Before running it:
+  runs collect -> render (both `render_svg.py` and `render_html.py`) ->
+  `git commit` -> `git push` once a day, skipping the commit entirely on
+  days nothing changed. Before running it:
 
   1. Confirm explicitly: which repo, what daily time, and that they
      understand this will push to their remote unattended on a schedule

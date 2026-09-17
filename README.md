@@ -22,8 +22,15 @@ A **Claude Code skill** (not an app or a server) that:
 
 1. Reads your local Claude Code session transcripts.
 2. Aggregates tokens processed per day.
-3. Renders a single, self-contained SVG calendar heatmap — light/dark aware —
-   that you commit to a repo and embed like any other image.
+3. Renders two output forms, both light/dark aware:
+   - `token-heatmap.svg` — static, for README/markdown embeds.
+   - `token-heatmap.html` — a self-contained interactive widget with real
+     hover tooltips and a year selector, for portfolio sites.
+
+Why two files: a markdown `![]()` image always renders as a flat `<img>`, so
+hover/focus interactivity never runs there no matter what's inside the SVG —
+that's a browser platform limit. The `.html` widget is for contexts where
+you control the page's own HTML/JS (an `<iframe>` or inline embed).
 
 ## Install
 
@@ -48,7 +55,8 @@ Claude Code will invoke the `token-heatmap` skill, which:
 
 - Writes `token-heatmap-data.json` (your aggregated per-day usage — safe to
   commit, or gitignore it if you'd rather keep raw numbers private).
-- Writes `token-heatmap.svg` (the rendered heatmap).
+- Writes `token-heatmap.svg` (static, for READMEs) and `token-heatmap.html`
+  (interactive, for portfolios).
 
 Or run the scripts directly, no Claude session needed. Run them from the
 repo you want the badge in, pointing at wherever you installed the skill
@@ -57,11 +65,12 @@ repo you want the badge in, pointing at wherever you installed the skill
 ```bash
 python ~/.claude/skills/token-heatmap/scripts/collect_usage.py --out token-heatmap-data.json
 python ~/.claude/skills/token-heatmap/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
+python ~/.claude/skills/token-heatmap/scripts/render_html.py --data token-heatmap-data.json --out token-heatmap.html
 ```
 
 ## Embed it
 
-In the same repo:
+**README/markdown** (static SVG) — same repo:
 
 ```markdown
 ![Claude Token Usage](./token-heatmap.svg)
@@ -74,8 +83,17 @@ raw file:
 ![Claude Token Usage](https://raw.githubusercontent.com/<you>/<repo>/<branch>/token-heatmap.svg)
 ```
 
-Works the same way in a portfolio site — it's a plain `<img>` pointing at an
-`.svg` file.
+**Portfolio site** (interactive widget — real hover tooltips, click a year
+to switch it, all data embedded inline so switching is instant):
+
+```html
+<iframe src="/token-heatmap.html" width="100%" height="220" style="border:none"></iframe>
+```
+
+For a framework-based site (Next.js, Astro, etc.), that means putting the
+file in your `public/` folder (or equivalent) so it's served as a static
+asset. You can also inline the widget's `<body>`/`<style>`/`<script>`
+directly into a page instead of using an iframe, if you prefer.
 
 ## Keeping it up to date
 
@@ -84,8 +102,9 @@ review the diff and commit yourself.
 
 If you want it to **update automatically every day**, run the setup script
 once. It registers a local scheduled task (Windows Task Scheduler, or cron on
-macOS/Linux) that collects usage, re-renders the SVG, and commits + pushes it
-— skipping the commit entirely on days with no change:
+macOS/Linux) that collects usage, re-renders both the SVG and the HTML
+widget, and commits + pushes them — skipping the commit entirely on days
+with no change:
 
 ```bash
 python ~/.claude/skills/token-heatmap/scripts/setup_autoupdate.py --repo-dir /path/to/your/repo --time 06:00
@@ -120,9 +139,10 @@ activity, not a bug.
 skills/token-heatmap/
   SKILL.md                      - the installable skill definition
   scripts/collect_usage.py      - aggregates local logs -> usage JSON
-  scripts/render_svg.py         - renders usage JSON -> SVG heatmap
+  scripts/render_svg.py         - renders usage JSON -> static SVG heatmap
+  scripts/render_html.py        - renders usage JSON -> interactive HTML widget
   scripts/setup_autoupdate.py   - registers/removes the daily auto-update task
-  examples/                     - synthetic sample data + rendered example
+  examples/                     - synthetic sample data + rendered examples
 ```
 
 ## Roadmap
