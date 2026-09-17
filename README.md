@@ -48,11 +48,13 @@ Claude Code will invoke the `token-heatmap` skill, which:
   commit, or gitignore it if you'd rather keep raw numbers private).
 - Writes `token-heatmap.svg` (the rendered heatmap).
 
-Or run the scripts directly, no Claude session needed:
+Or run the scripts directly, no Claude session needed. Run them from the
+repo you want the badge in, pointing at wherever you installed the skill
+(macOS/Linux shown; on Windows use `%USERPROFILE%\.claude\skills\token-heatmap\scripts\...`):
 
 ```bash
-python skills/token-heatmap/scripts/collect_usage.py --out token-heatmap-data.json
-python skills/token-heatmap/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
+python ~/.claude/skills/token-heatmap/scripts/collect_usage.py --out token-heatmap-data.json
+python ~/.claude/skills/token-heatmap/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
 ```
 
 ## Embed it

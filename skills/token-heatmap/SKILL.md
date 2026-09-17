@@ -28,6 +28,21 @@ Multi-agent (Codex, Copilot, ...) and hosted/dynamic badges are future phases
 
 ## Steps
 
+The scripts below live in `scripts/` next to this file, wherever this skill
+was installed (e.g. `~/.claude/skills/token-heatmap/scripts/` on macOS/Linux,
+`%USERPROFILE%\.claude\skills\token-heatmap\scripts\` on Windows) - **not**
+inside the target repo. Resolve the full path to this SKILL.md's own
+directory first (call it `<skill-dir>`), then invoke scripts by that
+absolute path while your working directory stays the target repo, e.g.:
+
+```
+python <skill-dir>/scripts/collect_usage.py --out token-heatmap-data.json
+```
+
+Never assume a relative path like `skills/token-heatmap/scripts/...` resolves
+- it only would if the target repo happened to be this project's own source
+checkout, which is not the common case for an installed skill.
+
 1. Confirm the target repo/directory the user wants the SVG written into
    (usually the repo whose README will embed it - often the current working
    directory, but ask if ambiguous rather than assuming).
@@ -35,7 +50,7 @@ Multi-agent (Codex, Copilot, ...) and hosted/dynamic badges are future phases
 2. Collect usage data:
 
    ```
-   python skills/token-heatmap/scripts/collect_usage.py --out token-heatmap-data.json
+   python <skill-dir>/scripts/collect_usage.py --out token-heatmap-data.json
    ```
 
    This scans `~/.claude/projects` and writes/merges a per-day token JSON.
@@ -45,7 +60,7 @@ Multi-agent (Codex, Copilot, ...) and hosted/dynamic badges are future phases
 3. Render the SVG:
 
    ```
-   python skills/token-heatmap/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
+   python <skill-dir>/scripts/render_svg.py --data token-heatmap-data.json --out token-heatmap.svg
    ```
 
    Useful flags: `--weeks N` (default 53, i.e. ~1 year), `--title "..."` to
