@@ -1,5 +1,7 @@
 # TokenHeatMap
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 A GitHub-contributions-style heatmap of your Claude token usage — generated
 locally from your own Claude Code logs, embeddable in READMEs and portfolios.
 
@@ -105,3 +107,13 @@ skills/token-heatmap/
 - [x] Phase 1 — Claude Code, local logs, static SVG
 - [ ] Phase 2 — other agents (Codex, Copilot, ...)
 - [ ] Phase 3 — optional hosted badge for always-live embeds without local scheduling
+
+## Contributing
+
+Issues and PRs welcome — this is early and Phase 1-scoped on purpose, so
+"add agent X" or "add metric Y" suggestions are useful even before there's
+code behind them.
+
+## License
+
+[MIT](./LICENSE)
