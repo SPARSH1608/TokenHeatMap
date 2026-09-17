@@ -79,10 +79,32 @@ Works the same way in a portfolio site — it's a plain `<img>` pointing at an
 
 ## Keeping it up to date
 
-The skill doesn't auto-commit or auto-push, and it doesn't run on a
-schedule — see [skills/token-heatmap/SKILL.md](./skills/token-heatmap/SKILL.md)
-for why (the data only exists on your machine) and how to wire up a local
-scheduled task if you want it to stay current automatically.
+By default, generating the heatmap doesn't auto-commit or auto-push — you
+review the diff and commit yourself.
+
+If you want it to **update automatically every day**, run the setup script
+once. It registers a local scheduled task (Windows Task Scheduler, or cron on
+macOS/Linux) that collects usage, re-renders the SVG, and commits + pushes it
+— skipping the commit entirely on days with no change:
+
+```bash
+python ~/.claude/skills/token-heatmap/scripts/setup_autoupdate.py --repo-dir /path/to/your/repo --time 06:00
+```
+
+This pushes to your git remote unattended, daily, until you remove it. Two
+things to check first:
+
+- `git push` already works non-interactively from this machine for that repo
+  (cached credentials or an SSH agent with no passphrase prompt) — otherwise
+  the scheduled run just fails silently every day.
+- You're comfortable with an unattended process pushing commits on a
+  schedule. Remove it any time with `--uninstall` (same command, plus that
+  flag), or delete the generated wrapper script
+  (`.token-heatmap-autoupdate.sh`/`.bat` in your repo) and its scheduled
+  task/cron entry directly.
+
+See [skills/token-heatmap/SKILL.md](./skills/token-heatmap/SKILL.md) for the
+full details and safety notes.
 
 ## How the numbers work
 
@@ -96,10 +118,11 @@ activity, not a bug.
 
 ```
 skills/token-heatmap/
-  SKILL.md                 - the installable skill definition
-  scripts/collect_usage.py - aggregates local logs -> usage JSON
-  scripts/render_svg.py    - renders usage JSON -> SVG heatmap
-  examples/                - synthetic sample data + rendered example
+  SKILL.md                      - the installable skill definition
+  scripts/collect_usage.py      - aggregates local logs -> usage JSON
+  scripts/render_svg.py         - renders usage JSON -> SVG heatmap
+  scripts/setup_autoupdate.py   - registers/removes the daily auto-update task
+  examples/                     - synthetic sample data + rendered example
 ```
 
 ## Roadmap

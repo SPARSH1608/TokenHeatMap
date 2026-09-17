@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Generated output if scripts are ever run from this source repo itself
+/token-heatmap-data.json
+/token-heatmap.svg
+/.token-heatmap-autoupdate.*
+/token-heatmap-autoupdate.bat

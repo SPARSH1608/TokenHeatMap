@@ -18,13 +18,15 @@ Multi-agent (Codex, Copilot, ...) and hosted/dynamic badges are future phases
 ## What this does NOT do
 
 - It does not call any network API - all data comes from local log files.
-- It does not commit or push to git on its own. After generating/updating the
-  SVG, tell the user what changed and let them review the diff before they
-  commit, per the standing git-safety rules (never commit/push without them
-  asking).
-- It does not run on a schedule by itself. If the user wants the heatmap to
-  stay fresh automatically, see "Keeping it fresh" below - that requires a
-  local scheduled task, since the usage data lives only on their machine.
+- When just generating/updating the SVG (steps 1-5 below), it does not commit
+  or push on its own - show the user what changed and let them review the
+  diff before they commit, per the standing git-safety rules.
+- It does not schedule itself automatically. Daily auto-updates are available
+  (see "Keeping it fresh" below) via `scripts/setup_autoupdate.py`, but only
+  set that up when the user explicitly asks for automatic/daily updates and
+  has confirmed the target repo, branch, and time - never as a default part
+  of generating a heatmap, since it registers something that pushes to their
+  git remote unattended, on a schedule, until removed.
 
 ## Steps
 
@@ -88,15 +90,35 @@ checkout, which is not the common case for an installed skill.
 Because the source data is local-only, an automatic "always up to date on
 GitHub" badge (like WakaTime's) needs *something on the user's machine* to
 re-run steps 2-3 and push periodically - a GitHub Action alone cannot reach
-into `~/.claude/projects`. Two options to offer the user, never set up
-without asking:
+into `~/.claude/projects`. Two options - present both, and only act on
+whichever the user picks:
 
 - **Manual**: re-run this skill whenever they want an updated snapshot.
-- **Local schedule**: a cron job (macOS/Linux) or Windows Task Scheduler task
-  that runs both scripts and then `git add/commit/push` on an interval (e.g.
-  daily). Only wire this up if the user explicitly asks - it involves
-  unattended `git push`, which needs their informed consent up front, not a
-  one-time approval.
+- **Automatic daily updates**: `scripts/setup_autoupdate.py` registers a
+  local scheduled task (Windows Task Scheduler, or cron on macOS/Linux) that
+  runs collect -> render -> `git commit` -> `git push` once a day, skipping
+  the commit entirely on days nothing changed. Before running it:
+
+  1. Confirm explicitly: which repo, what daily time, and that they
+     understand this will push to their remote unattended on a schedule
+     until they remove it.
+  2. Confirm `git push` already works non-interactively from their machine
+     for that repo (cached credentials / SSH agent with no passphrase
+     prompt) - a task that hangs on a credential prompt will just silently
+     fail every day.
+  3. Run:
+
+     ```
+     python <skill-dir>/scripts/setup_autoupdate.py --repo-dir <path-to-repo> --time 06:00
+     ```
+
+     (`--branch` defaults to the repo's current branch; add `--uninstall` to
+     remove the task later.)
+
+  The generated wrapper script and its logs live in the target repo itself
+  (`.token-heatmap-autoupdate.sh`/`.log` on macOS/Linux,
+  `token-heatmap-autoupdate.bat` on Windows) so the user can inspect or
+  delete them directly - point this out after setup.
 
 ## Notes on the token metric
 
